@@ -1,3 +1,3 @@
 <body>
-<include src="./yw.html"></include>
+<include src="yw.html"></include>
 </body>

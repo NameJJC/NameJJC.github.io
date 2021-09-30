@@ -1,9 +1,9 @@
 ---
 layout: list
-title: Java篇
+title: Java
 slug: Jc
 menu: true
-order: 2
+order: 1
 description: >
-
+ Java 技术总结积累
 ---

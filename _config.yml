@@ -19,7 +19,7 @@ baseurl:               ''
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  cn
 
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 Jc
@@ -27,12 +27,10 @@ title:                 Jc
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-日常技术记录
-
+  日常技术记录	
 # A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
-  Open `_config.yml` to edit this text.
+  不积小流，无以成江海
 
 # A list of keywords for your blog
 keywords:              []

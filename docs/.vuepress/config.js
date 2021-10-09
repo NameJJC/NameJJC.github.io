@@ -1,10 +1,10 @@
 // .vuepress/config.js
 module.exports = {
-	  title: 'Hello VuePress',
-	  description: 'Just playing around',
-  themeConfig: {
-	  theme: 'vuepress-theme-xx',
-    ///logo: '/assets/img/logo.png',
+	base:'/',
+	dest:'docs/.vuepress/dist',
+	title: 'jcblog',
+	description: 'JC personal blog',
+    themeConfig: {
 	    nav: [
 	      { text: 'Home', link: '/' },
 	      { text: 'Guide', link: '/guide/' },

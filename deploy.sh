@@ -7,17 +7,23 @@ set -e
 npm run docs:build
 
 # 进入生成的文件夹
-#cd docs/.vuepress/dist
-
+cd docs/.vuepress/dist
+git init
+git add .
+git commit -m 'deploy'
+# 发布网站
+git push -f https://github.com/NameJJC/namejjc.github.io.git origin page
 # 如果是发布到自定义域名
 #echo 'https://namejjc.github.io/' > CNAME
 
 #git init
-git add .
-git commit -m 'deploy'
-
-# 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/NameJJC/namejjc.github.io.git master
+#git add .
+#git commit -m 'deploy'
+ 
+# 如果发布到 https://<USERNAME>.github.io 更新项目文件 !!!项目更新发布到master 分支
+#git push -f https://github.com/NameJJC/namejjc.github.io.git master
+# 发布网站  ！！ 发布网站是用page 分支
+#git push -f https://github.com/NameJJC/namejjc.github.io.git page
 #git push -f origin master
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
